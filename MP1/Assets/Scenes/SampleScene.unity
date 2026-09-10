@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b08407a4ca93d48bc7836e846e3484, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EulerMovement
-  velocity: {x: 0, y: 0.2, z: 0}
+  velocity: {x: 0, y: 0.05, z: 0}
 --- !u!65 &137475350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5300,7 +5300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoubleIntegrator
   velocity: {x: 0, y: 0, z: 0}
-  acceleration: {x: 0, y: 0, z: 0.5}
+  acceleration: {x: 0, y: 0.05, z: 0}
 --- !u!65 &1441740500
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6957,7 +6957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Orbiter
   attractor: {fileID: 1289481159}
-  gravity: 2
+  gravity: 0.5
   velocity: {x: 0, y: 0, z: 0}
 --- !u!135 &2137449921
 SphereCollider:
